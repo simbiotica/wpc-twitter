@@ -10,6 +10,7 @@
         background-size: cover;
       }
       h1{
+        font-family: 'akzidenz', Helvetica, Arial, sans-serif;
         font-size: 40px;
         color: #fff;
         text-rendering: optimizeLegibility;
