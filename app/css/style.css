@@ -17,9 +17,9 @@
         -webkit-font-smoothing: antialiased;
         position: absolute;
         left: 50%;
-        top: 81%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+        bottom: 100px;
+        -webkit-transform: translate(-50%);
+        transform: translate(-50%);
         z-index: 3;
       }
 
