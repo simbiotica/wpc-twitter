@@ -1,0 +1,83 @@
+#map {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background-image: url("../img/background-01.jpg");
+        background-size: cover;
+      }
+      h1{
+        font-size: 40px;
+        color: #fff;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        position: absolute;
+        left: 50%;
+        top: 81%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: 3;
+      }
+
+       div.cartodb-timeslider {
+        border-radius: 0;
+        height: 40px;
+        border: transparent;
+        padding: 10px;
+        box-shadow: 0 0 0;
+        box-sizing: content-box;
+        position: absolute;
+        left: 50% !important;
+        bottom: 2% !important;
+        -webkit-transform: translatex(-50%);
+        -ms-transform: translatex(-50%);
+        transform: translatex(-50%);
+        background: none;
+
+      }
+
+      div.cartodb-timeslide .controls {
+        position: relative;
+        left: 22px;    
+      }
+      div.cartodb-timeslider p {
+        color: white;
+        -webkit-font-smoothing: antialiased;
+    }
+ 
+     div.cartodb-timeslider {
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    div.cartodb-timeslider a.button {
+        background: url('../img/slider.png') no-repeat -2px -55px;
+    }
+    div.cartodb-timeslider .value{
+        display: none;
+     }
+    div.cartodb-timeslider .ui-slider {
+        background: rgba(0,0,0,0.3);
+    }
+
+    .slide-tip .tooltip {
+    background: rgba(87, 124, 29, .7);
+    }
+
+    div.cartodb-timeslider .ui-slider .ui-slider-range {
+    background: white;
+    }
+
+    div.cartodb-timeslider ul li {
+    border: none;
+    }
+
+    div.cartodb-timeslider .ui-slider .ui-slider-handle {
+    background: white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    }
