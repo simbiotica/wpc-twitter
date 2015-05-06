@@ -7,7 +7,7 @@ function main() {
     maxZoom: 3,
   });
 
-  cartodb.createLayer(map, 'http://simbiotica.cartodb.com/api/v2/viz/efb6172c-6a66-11e4-b671-0e853d047bba/viz.json', {
+  cartodb.createLayer(map, 'https://simbiotica.cartodb.com/api/v2/viz/00e6b09c-f414-11e4-a246-0e9d821ea90d/viz.json', {
     legends: false,
     time_slider: true
   }).done(function(layer) {
